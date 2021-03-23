@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rtt_ros2_orocoros2_msgs</name>
+  <version>1.0.0</version>
+  <description>Orocos interface package (RTT Typekit) for orocoros2_msgs</description>
+  <maintainer email="harle@isir.upmc.fr">Antoine Harlé</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>rtt_ros2_interfaces</depend>
+  <depend>orocoros2_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
